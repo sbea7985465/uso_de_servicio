@@ -23,8 +23,14 @@ export class PruebaService {
     return dato
   }
 
-    invocable_sumar(numero:any){
+  invocable_sumar(numero:any){
     let dato = 5
     return(dato + numero)
+  }
+
+  calcular_promedio(numero1:any ,numero2:any){
+    let promedio = (numero1 + numero2)/2;
+    return promedio
+
   }
 }
